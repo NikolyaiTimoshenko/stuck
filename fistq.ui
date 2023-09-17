@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.220639, y1:0.766636, x2:0.861136, y2:0.0795455, stop:0 rgba(62, 155, 240, 255), stop:1 rgba(13, 10, 255, 255));
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="namefill_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>501</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>ВОПРОС</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Первый ответ на первый вопрос</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Второй ответ на первый вопрос</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>260</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Третий ответ на первый вопрос</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
